@@ -9,7 +9,7 @@ import numpy as np
 
 # --- CONFIGURACIÓN Y VARIABLES CRÍTICAS ---
 # Reemplaza 'TU_CLAVE_AQUI' con tu clave real de OpenWeatherMap
-API_KEY = "0fb6a8e85137ba1421f4c286dd2f3bf0" 
+API_KEY = st.secrets["0fb6a8e85137ba1421f4c286dd2f3bf0"]
 LATITUD_ICA = -14.0678 # Coordenadas de Ica
 LONGITUD_ICA = -75.7286
 TEMP_BASE_VID = 10.0 # Temperatura base (Tb) en °C para la vid
